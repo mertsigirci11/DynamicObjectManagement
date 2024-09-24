@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("DynamicObjectManagement.API")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("DynamicObjectManagement.Core")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9b9b50cc0fb994cd3fec50d0749febb1ab3322ca")]
-[assembly: System.Reflection.AssemblyProductAttribute("DynamicObjectManagement.API")]
-[assembly: System.Reflection.AssemblyTitleAttribute("DynamicObjectManagement.API")]
+[assembly: System.Reflection.AssemblyProductAttribute("DynamicObjectManagement.Core")]
+[assembly: System.Reflection.AssemblyTitleAttribute("DynamicObjectManagement.Core")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // MSBuild WriteCodeFragment sınıfı tarafından oluşturuldu.
