@@ -1,0 +1,12 @@
+C:\Users\Mert\Documents\GitHub\DynamicObjectManagement\DynamicObjectManagement.Core\bin\Debug\net8.0\DynamicObjectManagement.Core.deps.json
+C:\Users\Mert\Documents\GitHub\DynamicObjectManagement\DynamicObjectManagement.Core\bin\Debug\net8.0\DynamicObjectManagement.Core.dll
+C:\Users\Mert\Documents\GitHub\DynamicObjectManagement\DynamicObjectManagement.Core\bin\Debug\net8.0\DynamicObjectManagement.Core.pdb
+C:\Users\Mert\Documents\GitHub\DynamicObjectManagement\DynamicObjectManagement.Core\obj\Debug\net8.0\DynamicObjectManagement.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mert\Documents\GitHub\DynamicObjectManagement\DynamicObjectManagement.Core\obj\Debug\net8.0\DynamicObjectManagement.Core.AssemblyInfoInputs.cache
+C:\Users\Mert\Documents\GitHub\DynamicObjectManagement\DynamicObjectManagement.Core\obj\Debug\net8.0\DynamicObjectManagement.Core.AssemblyInfo.cs
+C:\Users\Mert\Documents\GitHub\DynamicObjectManagement\DynamicObjectManagement.Core\obj\Debug\net8.0\DynamicObjectManagement.Core.csproj.CoreCompileInputs.cache
+C:\Users\Mert\Documents\GitHub\DynamicObjectManagement\DynamicObjectManagement.Core\obj\Debug\net8.0\DynamicObjectManagement.Core.sourcelink.json
+C:\Users\Mert\Documents\GitHub\DynamicObjectManagement\DynamicObjectManagement.Core\obj\Debug\net8.0\DynamicObjectManagement.Core.dll
+C:\Users\Mert\Documents\GitHub\DynamicObjectManagement\DynamicObjectManagement.Core\obj\Debug\net8.0\refint\DynamicObjectManagement.Core.dll
+C:\Users\Mert\Documents\GitHub\DynamicObjectManagement\DynamicObjectManagement.Core\obj\Debug\net8.0\DynamicObjectManagement.Core.pdb
+C:\Users\Mert\Documents\GitHub\DynamicObjectManagement\DynamicObjectManagement.Core\obj\Debug\net8.0\ref\DynamicObjectManagement.Core.dll

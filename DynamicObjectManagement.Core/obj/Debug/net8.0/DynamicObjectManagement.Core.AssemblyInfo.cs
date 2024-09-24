@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DynamicObjectManagement.Core")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9b9b50cc0fb994cd3fec50d0749febb1ab3322ca")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f98541f17d08b455590a04f2dd6185b6cf7b9c72")]
 [assembly: System.Reflection.AssemblyProductAttribute("DynamicObjectManagement.Core")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DynamicObjectManagement.Core")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
