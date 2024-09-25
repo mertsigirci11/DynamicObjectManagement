@@ -10,6 +10,6 @@ namespace DynamicObjectManagement.Core.Services
 {
     public interface IDynamicObjectService : IGenericService<DynamicObject>
     {
-        Task<CustomResponseDto<IEnumerable<DynamicObject>>> GetAllSameObjectTypeAsync();
+        Task<CustomResponseDto<IEnumerable<DynamicObject>>> GetAllSameObjectTypeAsync(int objectTypeId);
     }
 }

@@ -13,9 +13,6 @@ namespace DynamicObjectManagement.Core.Services
         //Get All
         Task<CustomResponseDto<IEnumerable<TEntity>>> GetAllAsync();
 
-        //Get All Same Object Types
-        Task<CustomResponseDto<IEnumerable<TEntity>>> GetAllAsync(int objectTypeId);
-
         //Get Object By ObjectId
         Task<CustomResponseDto<TEntity>> GetByIdAsync(int objectId);
 
