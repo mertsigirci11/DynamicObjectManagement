@@ -5,13 +5,13 @@ using System.ComponentModel.DataAnnotations;
 
 namespace DynamicObjectManagement.Service.Validators
 {
-    public class ObjectValidator<TEntity> where TEntity : class
+    public class ObjectValidator
     {
         private List<ValidationResult> ValidationResults { get; set; } = new();
 
         private ValidationContext ValidationContext { get; set; }
 
-        public bool ValidateObject(TEntity entity, out List<string> errorMessages)
+        public bool ValidateObject(Object entity, List<string> errorMessages)
         {
             ValidationContext = ValidationContext ?? new ValidationContext(entity, serviceProvider: null, items: null);
 

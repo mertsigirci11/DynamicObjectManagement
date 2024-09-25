@@ -1,4 +1,14 @@
+using DynamicObjectManagement.API.Middlewares;
+using DynamicObjectManagement.Core.Repositories;
+using DynamicObjectManagement.Core.Services;
+using DynamicObjectManagement.Core.UnitOfWorks;
+using DynamicObjectManagement.Repository;
+using DynamicObjectManagement.Repository.Repositories;
+using DynamicObjectManagement.Repository.UnitOfWorks;
+using DynamicObjectManagement.Service.Services;
+using Microsoft.EntityFrameworkCore;
 using System;
+using System.Reflection;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -9,6 +19,22 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+//Dependency Inversion
+builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
+builder.Services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
+builder.Services.AddScoped(typeof(IGenericService<>), typeof(GenericService<>));
+builder.Services.AddScoped(typeof(IDynamicObjectRepository), typeof(DynamicObjectRepository));
+builder.Services.AddScoped(typeof(IDynamicObjectService), typeof(DynamicObjectService));
+
+//EntityFramework Connection
+builder.Services.AddDbContext<AppDbContext>(x =>
+{
+    x.UseSqlServer(builder.Configuration.GetConnectionString("SqlConnection"), option =>
+    {
+        #pragma warning disable CS8602
+        option.MigrationsAssembly(Assembly.GetAssembly(typeof(AppDbContext)).GetName().Name);
+    });
+});
 
 var app = builder.Build();
 
@@ -20,9 +46,8 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
-
+app.UseObjectValidator();
+app.UseGlobalExceptionHandling();
 app.UseAuthorization();
-
 app.MapControllers();
-
 app.Run();

@@ -6,6 +6,7 @@ using DynamicObjectManagement.Core.UnitOfWorks;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -25,10 +26,10 @@ namespace DynamicObjectManagement.Service.Services
 
             if (entities == null)
             {
-                return CustomResponseDto<IEnumerable<DynamicObject>>.Fail(404, "Datas have not found.");
+                return CustomResponseDto<IEnumerable<DynamicObject>>.Fail((int)HttpStatusCode.NotFound, "Datas have not found.");
             }
                                                                               //await entities.ToListAsync() olabilir
-            return CustomResponseDto<IEnumerable<DynamicObject>>.Success(200, entities);
+            return CustomResponseDto<IEnumerable<DynamicObject>>.Success((int)HttpStatusCode.OK, entities);
         }
     }
 }

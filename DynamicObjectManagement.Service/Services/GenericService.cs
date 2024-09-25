@@ -9,6 +9,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
+using System.Net;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -30,7 +31,7 @@ namespace DynamicObjectManagement.Service.Services
             await _genericRepository.AddAsync(entity);
             await _unitOfWork.CommitAsync();
 
-            return CustomResponseDto<TEntity>.Success(201, entity);
+            return CustomResponseDto<TEntity>.Success((int)HttpStatusCode.Created, entity);
         }
 
         public async Task<CustomResponseDto<IEnumerable<TEntity>>> AddRangeAsync(IEnumerable<TEntity> entities)
@@ -38,21 +39,21 @@ namespace DynamicObjectManagement.Service.Services
             await _genericRepository.AddRangeAsync(entities);
             await _unitOfWork.CommitAsync();
 
-            return CustomResponseDto<IEnumerable<TEntity>>.Success(201, entities);
+            return CustomResponseDto<IEnumerable<TEntity>>.Success((int)HttpStatusCode.Created, entities);
         }
 
         public async Task<CustomResponseDto<IEnumerable<TEntity>>> GetAllAsync()
         {
             var entities = _genericRepository.GetAllAsync();
             
-            return CustomResponseDto<IEnumerable<TEntity>>.Success(200, entities);
+            return CustomResponseDto<IEnumerable<TEntity>>.Success((int)HttpStatusCode.OK, entities);
         }
 
         public async Task<CustomResponseDto<TEntity>> GetByIdAsync(int objectId)
         {
             var entity = await _genericRepository.GetByIdAsync(objectId);
             
-            return CustomResponseDto<TEntity>.Success(200, entity);
+            return CustomResponseDto<TEntity>.Success((int)HttpStatusCode.OK, entity);
         }
 
         public async Task<CustomResponseDto<NoContentDto>> RemoveAsync(int id)
@@ -61,25 +62,25 @@ namespace DynamicObjectManagement.Service.Services
             
             if (entityToBeDeleted != null)
             {
-                return CustomResponseDto<NoContentDto>.Fail(404, "Data has not found.");
+                return CustomResponseDto<NoContentDto>.Fail((int)HttpStatusCode.NotFound, "Data has not found.");
             }
 
             _genericRepository.Remove(entityToBeDeleted);
             _unitOfWork.Commit();
 
-            return CustomResponseDto<NoContentDto>.Success(204);
+            return CustomResponseDto<NoContentDto>.Success((int)HttpStatusCode.NoContent);
         }
 
         public async Task<CustomResponseDto<NoContentDto>> RemoveRangeAsync(IEnumerable<TEntity> entities)
         {
             if (entities == null)
             {
-                return CustomResponseDto<NoContentDto>.Fail(404, "Datas have not found.");
+                return CustomResponseDto<NoContentDto>.Fail((int)HttpStatusCode.NotFound, "Datas have not found.");
             }
             _genericRepository.RemoveRange(entities);
             _unitOfWork.Commit();
 
-            return CustomResponseDto<NoContentDto>.Success(204);
+            return CustomResponseDto<NoContentDto>.Success((int)HttpStatusCode.NoContent);
         }
 
         public async Task<CustomResponseDto<NoContentDto>> Update(TEntity entity, int id)
@@ -88,13 +89,13 @@ namespace DynamicObjectManagement.Service.Services
             
             if(entityToBeUpdated == null)
             {
-                return CustomResponseDto<NoContentDto>.Fail(404, "Data has not found.");
+                return CustomResponseDto<NoContentDto>.Fail((int)HttpStatusCode.NotFound, "Data has not found.");
             }
 
             _genericRepository.Update(entity);
             _unitOfWork.Commit();
 
-            return CustomResponseDto<NoContentDto>.Success(204);
+            return CustomResponseDto<NoContentDto>.Success((int)HttpStatusCode.NoContent);
         }
 
         public async Task<CustomResponseDto<IEnumerable<TEntity>>> Where(Expression<Func<TEntity, bool>> expression)
@@ -103,11 +104,11 @@ namespace DynamicObjectManagement.Service.Services
 
             if (entities == null)
             {
-                return CustomResponseDto<IEnumerable<TEntity>>.Fail(404, "Datas have not found.");
+                return CustomResponseDto<IEnumerable<TEntity>>.Fail((int)HttpStatusCode.NotFound, "Datas have not found.");
             }
 
                                                                         //await entities.ToListAsync() olabilir
-            return CustomResponseDto<IEnumerable<TEntity>>.Success(200, entities);
+            return CustomResponseDto<IEnumerable<TEntity>>.Success((int)HttpStatusCode.OK, entities);
         }
     }
 }

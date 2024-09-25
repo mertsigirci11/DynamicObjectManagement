@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace DynamicObjectManagement.Service.Exceptions
 {
-    public class ObjectNotFoundException : Exception
+    public class NotFoundException : Exception
     {
-        public ObjectNotFoundException(string msg) : base(msg) { }
+        public NotFoundException(string msg) : base(msg) { }
     }
 }

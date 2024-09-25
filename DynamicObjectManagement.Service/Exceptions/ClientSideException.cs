@@ -8,6 +8,6 @@ namespace DynamicObjectManagement.Service.Exceptions
 {
     public class ClientSideException : Exception
     {
-        public ClientSideException(string msg) : base(msg) { } 
+        public ClientSideException(string msg) : base(msg) { }
     }
 }
