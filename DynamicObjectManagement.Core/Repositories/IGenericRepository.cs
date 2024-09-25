@@ -13,11 +13,8 @@ namespace DynamicObjectManagement.Core.Repositories
         //Get All
         IQueryable<TEntity> GetAllAsync();
 
-        //Get All Same Object Types
-        IQueryable<TEntity> GetAllAsync(int objectTypeId);
-
         //Get Object By ObjectId
-        Task<CustomResponseDto<TEntity>> GetByIdAsync(int objectId);
+        Task<TEntity> GetByIdAsync(int objectId);
 
         //Add Single Object
         Task AddAsync(TEntity entity);
