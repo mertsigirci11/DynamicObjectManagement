@@ -1,2 +1,2 @@
 # DynamicObjectManagement
- This repository created for hiring challange
+ This repository created for challange
