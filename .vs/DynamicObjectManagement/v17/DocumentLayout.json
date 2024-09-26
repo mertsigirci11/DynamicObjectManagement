@@ -1,0 +1,224 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Mert\\Documents\\GitHub\\DynamicObjectManagement\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4375FE4E-EFF0-4F77-9FE6-A900C64B0527}|DynamicObjectManagement.API\\DynamicObjectManagement.API.csproj|c:\\users\\mert\\documents\\github\\dynamicobjectmanagement\\dynamicobjectmanagement.api\\middlewares\\objectvalidatehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4375FE4E-EFF0-4F77-9FE6-A900C64B0527}|DynamicObjectManagement.API\\DynamicObjectManagement.API.csproj|solutionrelative:dynamicobjectmanagement.api\\middlewares\\objectvalidatehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B049AEF7-7BD8-437A-98A0-B2BA01FA0CDB}|DynamicObjectManagement.Service\\DynamicObjectManagement.Service.csproj|c:\\users\\mert\\documents\\github\\dynamicobjectmanagement\\dynamicobjectmanagement.service\\validators\\objectvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B049AEF7-7BD8-437A-98A0-B2BA01FA0CDB}|DynamicObjectManagement.Service\\DynamicObjectManagement.Service.csproj|solutionrelative:dynamicobjectmanagement.service\\validators\\objectvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4375FE4E-EFF0-4F77-9FE6-A900C64B0527}|DynamicObjectManagement.API\\DynamicObjectManagement.API.csproj|c:\\users\\mert\\documents\\github\\dynamicobjectmanagement\\dynamicobjectmanagement.api\\middlewares\\usecustomexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4375FE4E-EFF0-4F77-9FE6-A900C64B0527}|DynamicObjectManagement.API\\DynamicObjectManagement.API.csproj|solutionrelative:dynamicobjectmanagement.api\\middlewares\\usecustomexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4375FE4E-EFF0-4F77-9FE6-A900C64B0527}|DynamicObjectManagement.API\\DynamicObjectManagement.API.csproj|c:\\users\\mert\\documents\\github\\dynamicobjectmanagement\\dynamicobjectmanagement.api\\controllers\\dynamicobjectscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4375FE4E-EFF0-4F77-9FE6-A900C64B0527}|DynamicObjectManagement.API\\DynamicObjectManagement.API.csproj|solutionrelative:dynamicobjectmanagement.api\\controllers\\dynamicobjectscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B049AEF7-7BD8-437A-98A0-B2BA01FA0CDB}|DynamicObjectManagement.Service\\DynamicObjectManagement.Service.csproj|c:\\users\\mert\\documents\\github\\dynamicobjectmanagement\\dynamicobjectmanagement.service\\services\\genericservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B049AEF7-7BD8-437A-98A0-B2BA01FA0CDB}|DynamicObjectManagement.Service\\DynamicObjectManagement.Service.csproj|solutionrelative:dynamicobjectmanagement.service\\services\\genericservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4375FE4E-EFF0-4F77-9FE6-A900C64B0527}|DynamicObjectManagement.API\\DynamicObjectManagement.API.csproj|c:\\users\\mert\\documents\\github\\dynamicobjectmanagement\\dynamicobjectmanagement.api\\controllers\\customcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4375FE4E-EFF0-4F77-9FE6-A900C64B0527}|DynamicObjectManagement.API\\DynamicObjectManagement.API.csproj|solutionrelative:dynamicobjectmanagement.api\\controllers\\customcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5477AAD-B334-43FF-9596-9EA2732E3E19}|DynamicObjectManagement.Repository\\DynamicObjectManagement.Repository.csproj|c:\\users\\mert\\documents\\github\\dynamicobjectmanagement\\dynamicobjectmanagement.repository\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5477AAD-B334-43FF-9596-9EA2732E3E19}|DynamicObjectManagement.Repository\\DynamicObjectManagement.Repository.csproj|solutionrelative:dynamicobjectmanagement.repository\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F739BD26-22A4-44CD-9471-E9A762B1D578}|DynamicObjectManagement.Core\\DynamicObjectManagement.Core.csproj|c:\\users\\mert\\documents\\github\\dynamicobjectmanagement\\dynamicobjectmanagement.core\\models\\dynamicobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F739BD26-22A4-44CD-9471-E9A762B1D578}|DynamicObjectManagement.Core\\DynamicObjectManagement.Core.csproj|solutionrelative:dynamicobjectmanagement.core\\models\\dynamicobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F739BD26-22A4-44CD-9471-E9A762B1D578}|DynamicObjectManagement.Core\\DynamicObjectManagement.Core.csproj|c:\\users\\mert\\documents\\github\\dynamicobjectmanagement\\dynamicobjectmanagement.core\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F739BD26-22A4-44CD-9471-E9A762B1D578}|DynamicObjectManagement.Core\\DynamicObjectManagement.Core.csproj|solutionrelative:dynamicobjectmanagement.core\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F739BD26-22A4-44CD-9471-E9A762B1D578}|DynamicObjectManagement.Core\\DynamicObjectManagement.Core.csproj|c:\\users\\mert\\documents\\github\\dynamicobjectmanagement\\dynamicobjectmanagement.core\\models\\baseobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F739BD26-22A4-44CD-9471-E9A762B1D578}|DynamicObjectManagement.Core\\DynamicObjectManagement.Core.csproj|solutionrelative:dynamicobjectmanagement.core\\models\\baseobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4375FE4E-EFF0-4F77-9FE6-A900C64B0527}|DynamicObjectManagement.API\\DynamicObjectManagement.API.csproj|c:\\users\\mert\\documents\\github\\dynamicobjectmanagement\\dynamicobjectmanagement.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4375FE4E-EFF0-4F77-9FE6-A900C64B0527}|DynamicObjectManagement.API\\DynamicObjectManagement.API.csproj|solutionrelative:dynamicobjectmanagement.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4375FE4E-EFF0-4F77-9FE6-A900C64B0527}|DynamicObjectManagement.API\\DynamicObjectManagement.API.csproj|c:\\users\\mert\\documents\\github\\dynamicobjectmanagement\\dynamicobjectmanagement.api\\middlewares\\useobjectvalidation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4375FE4E-EFF0-4F77-9FE6-A900C64B0527}|DynamicObjectManagement.API\\DynamicObjectManagement.API.csproj|solutionrelative:dynamicobjectmanagement.api\\middlewares\\useobjectvalidation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 11,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DynamicObjectsController.cs",
+              "DocumentMoniker": "C:\\Users\\Mert\\Documents\\GitHub\\DynamicObjectManagement\\DynamicObjectManagement.API\\Controllers\\DynamicObjectsController.cs",
+              "RelativeDocumentMoniker": "DynamicObjectManagement.API\\Controllers\\DynamicObjectsController.cs",
+              "ToolTip": "C:\\Users\\Mert\\Documents\\GitHub\\DynamicObjectManagement\\DynamicObjectManagement.API\\Controllers\\DynamicObjectsController.cs",
+              "RelativeToolTip": "DynamicObjectManagement.API\\Controllers\\DynamicObjectsController.cs",
+              "ViewState": "AQIAACgAAAAAAAAAAAAAAEAAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T12:23:03.735Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ObjectValidator.cs",
+              "DocumentMoniker": "C:\\Users\\Mert\\Documents\\GitHub\\DynamicObjectManagement\\DynamicObjectManagement.Service\\Validators\\ObjectValidator.cs",
+              "RelativeDocumentMoniker": "DynamicObjectManagement.Service\\Validators\\ObjectValidator.cs",
+              "ToolTip": "C:\\Users\\Mert\\Documents\\GitHub\\DynamicObjectManagement\\DynamicObjectManagement.Service\\Validators\\ObjectValidator.cs",
+              "RelativeToolTip": "DynamicObjectManagement.Service\\Validators\\ObjectValidator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwA4AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T11:51:42.604Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "C:\\Users\\Mert\\Documents\\GitHub\\DynamicObjectManagement\\DynamicObjectManagement.Core\\Models\\Customer.cs",
+              "RelativeDocumentMoniker": "DynamicObjectManagement.Core\\Models\\Customer.cs",
+              "ToolTip": "C:\\Users\\Mert\\Documents\\GitHub\\DynamicObjectManagement\\DynamicObjectManagement.Core\\Models\\Customer.cs",
+              "RelativeToolTip": "DynamicObjectManagement.Core\\Models\\Customer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAABZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T11:27:55.112Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DynamicObject.cs",
+              "DocumentMoniker": "C:\\Users\\Mert\\Documents\\GitHub\\DynamicObjectManagement\\DynamicObjectManagement.Core\\Models\\DynamicObject.cs",
+              "RelativeDocumentMoniker": "DynamicObjectManagement.Core\\Models\\DynamicObject.cs",
+              "ToolTip": "C:\\Users\\Mert\\Documents\\GitHub\\DynamicObjectManagement\\DynamicObjectManagement.Core\\Models\\DynamicObject.cs",
+              "RelativeToolTip": "DynamicObjectManagement.Core\\Models\\DynamicObject.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAgwBAAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T11:08:46.509Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "BaseObject.cs",
+              "DocumentMoniker": "C:\\Users\\Mert\\Documents\\GitHub\\DynamicObjectManagement\\DynamicObjectManagement.Core\\Models\\BaseObject.cs",
+              "RelativeDocumentMoniker": "DynamicObjectManagement.Core\\Models\\BaseObject.cs",
+              "ToolTip": "C:\\Users\\Mert\\Documents\\GitHub\\DynamicObjectManagement\\DynamicObjectManagement.Core\\Models\\BaseObject.cs",
+              "RelativeToolTip": "DynamicObjectManagement.Core\\Models\\BaseObject.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T11:08:38.548Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "UseObjectValidation.cs",
+              "DocumentMoniker": "C:\\Users\\Mert\\Documents\\GitHub\\DynamicObjectManagement\\DynamicObjectManagement.API\\Middlewares\\UseObjectValidation.cs",
+              "RelativeDocumentMoniker": "DynamicObjectManagement.API\\Middlewares\\UseObjectValidation.cs",
+              "ToolTip": "C:\\Users\\Mert\\Documents\\GitHub\\DynamicObjectManagement\\DynamicObjectManagement.API\\Middlewares\\UseObjectValidation.cs",
+              "RelativeToolTip": "DynamicObjectManagement.API\\Middlewares\\UseObjectValidation.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T10:57:08.791Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GenericService.cs",
+              "DocumentMoniker": "C:\\Users\\Mert\\Documents\\GitHub\\DynamicObjectManagement\\DynamicObjectManagement.Service\\Services\\GenericService.cs",
+              "RelativeDocumentMoniker": "DynamicObjectManagement.Service\\Services\\GenericService.cs",
+              "ToolTip": "C:\\Users\\Mert\\Documents\\GitHub\\DynamicObjectManagement\\DynamicObjectManagement.Service\\Services\\GenericService.cs",
+              "RelativeToolTip": "DynamicObjectManagement.Service\\Services\\GenericService.cs",
+              "ViewState": "AQIAADAAAAAAAAAAAAAiwEMAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T10:44:14.556Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "GenericRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Mert\\Documents\\GitHub\\DynamicObjectManagement\\DynamicObjectManagement.Repository\\Repositories\\GenericRepository.cs",
+              "RelativeDocumentMoniker": "DynamicObjectManagement.Repository\\Repositories\\GenericRepository.cs",
+              "ToolTip": "C:\\Users\\Mert\\Documents\\GitHub\\DynamicObjectManagement\\DynamicObjectManagement.Repository\\Repositories\\GenericRepository.cs",
+              "RelativeToolTip": "DynamicObjectManagement.Repository\\Repositories\\GenericRepository.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAqwCEAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T10:44:14.567Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CustomController.cs",
+              "DocumentMoniker": "C:\\Users\\Mert\\Documents\\GitHub\\DynamicObjectManagement\\DynamicObjectManagement.API\\Controllers\\CustomController.cs",
+              "RelativeDocumentMoniker": "DynamicObjectManagement.API\\Controllers\\CustomController.cs",
+              "ToolTip": "C:\\Users\\Mert\\Documents\\GitHub\\DynamicObjectManagement\\DynamicObjectManagement.API\\Controllers\\CustomController.cs",
+              "RelativeToolTip": "DynamicObjectManagement.API\\Controllers\\CustomController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T10:44:14.58Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Mert\\Documents\\GitHub\\DynamicObjectManagement\\DynamicObjectManagement.API\\Program.cs",
+              "RelativeDocumentMoniker": "DynamicObjectManagement.API\\Program.cs",
+              "ToolTip": "C:\\Users\\Mert\\Documents\\GitHub\\DynamicObjectManagement\\DynamicObjectManagement.API\\Program.cs",
+              "RelativeToolTip": "DynamicObjectManagement.API\\Program.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAADMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T10:51:23.026Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UseCustomException.cs",
+              "DocumentMoniker": "C:\\Users\\Mert\\Documents\\GitHub\\DynamicObjectManagement\\DynamicObjectManagement.API\\Middlewares\\UseCustomException.cs",
+              "RelativeDocumentMoniker": "DynamicObjectManagement.API\\Middlewares\\UseCustomException.cs",
+              "ToolTip": "C:\\Users\\Mert\\Documents\\GitHub\\DynamicObjectManagement\\DynamicObjectManagement.API\\Middlewares\\UseCustomException.cs",
+              "RelativeToolTip": "DynamicObjectManagement.API\\Middlewares\\UseCustomException.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T10:48:47.619Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ObjectValidateHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Mert\\Documents\\GitHub\\DynamicObjectManagement\\DynamicObjectManagement.API\\Middlewares\\ObjectValidateHandler.cs",
+              "RelativeDocumentMoniker": "DynamicObjectManagement.API\\Middlewares\\ObjectValidateHandler.cs",
+              "ToolTip": "C:\\Users\\Mert\\Documents\\GitHub\\DynamicObjectManagement\\DynamicObjectManagement.API\\Middlewares\\ObjectValidateHandler.cs",
+              "RelativeToolTip": "DynamicObjectManagement.API\\Middlewares\\ObjectValidateHandler.cs",
+              "ViewState": "AQIAAFIAAAAAAAAAAAAqwIEAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T10:42:48.126Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
