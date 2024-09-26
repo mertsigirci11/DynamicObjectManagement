@@ -85,22 +85,49 @@ namespace DynamicObjectManagement.API.Middlewares
             //Product validation
             if (objectType == (int)ObjectTypesEnum.Product)
             {
-                Product product = JsonSerializer.Deserialize<Product>(dynamicObject.ObjectData, options);
+                Product product = null;
+                try
+                {
+                    product = JsonSerializer.Deserialize<Product>(dynamicObject.ObjectData, options);
+                }
+                catch (JsonException)
+                {
+                    throw new MissingFieldException(ExceptionResponseConstants.PRODUCT_MISSINGFIELDS_EX);
+                }
                 isValid = objectValidator.ValidateObject(product, ref errorMessages);
+                return;
             }
 
             //Order validation
             if (objectType == (int)ObjectTypesEnum.Order)
             {
-                Order order = JsonSerializer.Deserialize<Order>(dynamicObject.ObjectData, options);
+                Order order = null;
+                try
+                {
+                    order = JsonSerializer.Deserialize<Order>(dynamicObject.ObjectData, options);
+                }
+                catch (JsonException)
+                {
+                    throw new MissingFieldException(ExceptionResponseConstants.ORDER_MISSINGFIELDS_EX);
+                }
                 isValid = objectValidator.ValidateObject(order, ref errorMessages);
+                return;
             }
 
             //OrderedProduct validation
             if (objectType == (int)ObjectTypesEnum.OrderedProducts)
             {
-                OrderedProducts orderedProducts = JsonSerializer.Deserialize<OrderedProducts>(dynamicObject.ObjectData, options);
+                OrderedProducts orderedProducts = null;
+                try
+                {
+                    orderedProducts = JsonSerializer.Deserialize<OrderedProducts>(dynamicObject.ObjectData, options);
+                }
+                catch (JsonException)
+                {
+                    throw new MissingFieldException(ExceptionResponseConstants.ORDEREDPRODUCT_MISSINGFIELDS_EX);
+                }
                 isValid = objectValidator.ValidateObject(orderedProducts, ref errorMessages);
+                return;
             }
 
             errorMessages.Add($"Object type :{objectType} , the object that you wrote must have correct object type");
