@@ -11,7 +11,7 @@ namespace DynamicObjectManagement.Service.Validators
 
         private ValidationContext ValidationContext { get; set; }
 
-        public bool ValidateObject(Object entity, List<string> errorMessages)
+        public bool ValidateObject<T>(T entity, ref List<string> errorMessages)
         {
             ValidationContext = ValidationContext ?? new ValidationContext(entity, serviceProvider: null, items: null);
 

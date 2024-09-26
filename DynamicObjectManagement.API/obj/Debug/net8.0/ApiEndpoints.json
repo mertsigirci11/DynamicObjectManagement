@@ -1,0 +1,97 @@
+[
+  {
+    "ContainingType": "DynamicObjectManagement.API.Controllers.DynamicObjectsController",
+    "Method": "GetAllDynamicObjects",
+    "RelativePath": "api/DynamicObjects",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DynamicObjectManagement.API.Controllers.DynamicObjectsController",
+    "Method": "AddDynamicObject",
+    "RelativePath": "api/DynamicObjects",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dynamicObject",
+        "Type": "DynamicObjectManagement.Core.Models.DynamicObject",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DynamicObjectManagement.API.Controllers.DynamicObjectsController",
+    "Method": "GetDynamicObjectById",
+    "RelativePath": "api/DynamicObjects/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DynamicObjectManagement.API.Controllers.DynamicObjectsController",
+    "Method": "DeleteDynamicObject",
+    "RelativePath": "api/DynamicObjects/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DynamicObjectManagement.API.Controllers.DynamicObjectsController",
+    "Method": "UpdateDynamicObject",
+    "RelativePath": "api/DynamicObjects/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dynamicObject",
+        "Type": "DynamicObjectManagement.Core.Models.DynamicObject",
+        "IsRequired": true
+      },
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DynamicObjectManagement.API.Controllers.DynamicObjectsController",
+    "Method": "GetAllSameObjectType",
+    "RelativePath": "api/DynamicObjects/object-type/{objectType}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "objectType",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

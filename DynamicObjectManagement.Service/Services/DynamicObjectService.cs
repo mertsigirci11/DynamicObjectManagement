@@ -3,12 +3,15 @@ using DynamicObjectManagement.Core.Models;
 using DynamicObjectManagement.Core.Repositories;
 using DynamicObjectManagement.Core.Services;
 using DynamicObjectManagement.Core.UnitOfWorks;
+using DynamicObjectManagement.Service.Exceptions;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net;
 using System.Text;
 using System.Threading.Tasks;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace DynamicObjectManagement.Service.Services
 {
@@ -22,11 +25,11 @@ namespace DynamicObjectManagement.Service.Services
 
         public async Task<CustomResponseDto<IEnumerable<DynamicObject>>> GetAllSameObjectTypeAsync(int objectTypeId)
         {
-            var entities = _dynamicObjectRepository.GetAllSameObjectTypeAsync(objectTypeId);
+            var entities = await _dynamicObjectRepository.GetAllSameObjectTypeAsync(objectTypeId).ToListAsync();
 
-            if (entities == null)
+            if (entities.Count == 0)
             {
-                return CustomResponseDto<IEnumerable<DynamicObject>>.Fail((int)HttpStatusCode.NotFound, "Datas have not found.");
+                throw new NotFoundException($"Object type : ({objectTypeId}), records have not found.");
             }
                                                                               //await entities.ToListAsync() olabilir
             return CustomResponseDto<IEnumerable<DynamicObject>>.Success((int)HttpStatusCode.OK, entities);

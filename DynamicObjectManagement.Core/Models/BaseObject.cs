@@ -9,7 +9,5 @@ namespace DynamicObjectManagement.Core.Models
     public abstract class BaseObject
     {
         public int Id { get; set; }
-        public DateTime CreationDate { get; set; } = DateTime.Now;
-        public DateTime ModifyDate { get; set; } = DateTime.Now;
     }
 }

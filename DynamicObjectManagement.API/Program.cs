@@ -6,6 +6,7 @@ using DynamicObjectManagement.Repository;
 using DynamicObjectManagement.Repository.Repositories;
 using DynamicObjectManagement.Repository.UnitOfWorks;
 using DynamicObjectManagement.Service.Services;
+using DynamicObjectManagement.Service.Validators;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Reflection;
@@ -25,6 +26,7 @@ builder.Services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepositor
 builder.Services.AddScoped(typeof(IGenericService<>), typeof(GenericService<>));
 builder.Services.AddScoped(typeof(IDynamicObjectRepository), typeof(DynamicObjectRepository));
 builder.Services.AddScoped(typeof(IDynamicObjectService), typeof(DynamicObjectService));
+builder.Services.AddScoped<ObjectValidator>();
 
 //EntityFramework Connection
 builder.Services.AddDbContext<AppDbContext>(x =>
@@ -46,8 +48,8 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
-app.UseObjectValidator();
 app.UseGlobalExceptionHandling();
+app.UseObjectValidator();
 app.UseAuthorization();
 app.MapControllers();
 app.Run();
